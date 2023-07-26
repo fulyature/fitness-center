@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/fitness-center/static/js/main.b9fb42aa.js",
+    "index.html": "/fitness-center/index.html",
+    "main.b9fb42aa.js.map": "/fitness-center/static/js/main.b9fb42aa.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.b9fb42aa.js"
+  ]
+}
