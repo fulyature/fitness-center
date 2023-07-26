@@ -1,15 +1,20 @@
 import styled from "styled-components";
 
-export const NavStyled = styled.nav`
+const HeaderStyled = styled.header`
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 1rem;
+  gap: 1rem;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.md}) {
     flex-direction: column;
   }
-  background-color: ${({ theme }) => theme.colors.secondary};
+  &div {
+    flex: 2;
+  }
+  &img {
+    flex: 1;
+  }
 `;
 
-export default NavStyled;
+export default HeaderStyled;
