@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/fitness-center/static/js/main.b9fb42aa.js",
+    "main.js": "/fitness-center/static/js/main.77bd19a4.js",
     "index.html": "/fitness-center/index.html",
-    "main.b9fb42aa.js.map": "/fitness-center/static/js/main.b9fb42aa.js.map"
+    "main.77bd19a4.js.map": "/fitness-center/static/js/main.77bd19a4.js.map"
   },
   "entrypoints": [
-    "static/js/main.b9fb42aa.js"
+    "static/js/main.77bd19a4.js"
   ]
 }
