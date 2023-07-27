@@ -14,6 +14,6 @@ export const GlobalStyles = createGlobalStyle`
     p{
         font-size: 1.5rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        line-height: 2;
+        line-height: 1;
     }
 `;

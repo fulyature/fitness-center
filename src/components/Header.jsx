@@ -1,7 +1,7 @@
 import Button from "./styled/Button";
 import HeaderStyled from "./styled/HeaderStyled";
 import ImageStyled from "./styled/ImageStyled";
-
+import Gym2 from "../assets/gym2.jpg";
 const Header = () => {
   return (
     <HeaderStyled>
@@ -15,7 +15,7 @@ const Header = () => {
         </p>
         <Button primary>Start New Begginer</Button>
       </div>
-      <ImageStyled src="../assets/gym2.jpg" />
+      <ImageStyled src={Gym2} />
     </HeaderStyled>
   );
 };

@@ -1,12 +1,12 @@
 import NavStyled from "./styled/NavStyled";
-
+import logo from "../assets/fitness-logo.webp";
 import Button from "./styled/Button";
 
 const Nav = () => {
   return (
     <NavStyled>
       <div>
-        <img src="/src/assets/fitness-logo.webp" width="200px" alt="" />
+        <img src={logo} width="500px" alt="" />
       </div>
 
       <div>
