@@ -7,7 +7,7 @@ export const FooterStyled = styled.footer`
   padding: 1rem;
   background-color: #8b2a5a;
   color: white;
-  @media (max-width: 700px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.md}) {
     flex-direction: column;
   }
 `;

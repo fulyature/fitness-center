@@ -8,6 +8,7 @@ export const CardStyled = styled.div`
   @media (max-width: 1200px) {
     flex-direction: column;
   }
+  box-shadow: rgb(0 0 0 / 40%) 0px 0px 10px;
 `;
 
 export const CardImageWrapper = styled.div`
@@ -18,8 +19,9 @@ export const CardImageWrapper = styled.div`
   width: 40vw;
 `;
 export const CardImage = styled.img`
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 80%;
   aspect-ratio: 1;
   object-fit: cover;
+  border-radius: 10px;
 `;

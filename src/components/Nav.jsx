@@ -7,7 +7,7 @@ const Nav = () => {
   return (
     <NavStyled>
       <div>
-        <img src={logo} width="500px" alt="" />
+        <img src={logo} width="350px" alt="" />
       </div>
       <HeaderStyled>
         <h1 style={{ fontSize: "2.5rem" }}>FITNESS CENTER</h1>

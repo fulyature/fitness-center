@@ -2,8 +2,10 @@ import styled from "styled-components";
 
 const HeaderStyled = styled.header`
   display: flex;
-  justify-content: center;
+  width: 100%;
+  justify-content: flex-start;
   align-items: center;
+
   gap: 1rem;
   color: white;
   @media (max-width: ${({ theme }) => theme.breakpoints.md}) {
@@ -15,6 +17,7 @@ const HeaderStyled = styled.header`
   &img {
     flex: 1;
   }
+  margin-bottom: 2rem;
 `;
 
 export default HeaderStyled;

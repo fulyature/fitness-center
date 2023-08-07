@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
 export const NavStyled = styled.nav`
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
