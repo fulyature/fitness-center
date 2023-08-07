@@ -5,6 +5,9 @@ export const CardStyled = styled.div`
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  @media (max-width: 1200px) {
+    flex-direction: column;
+  }
 `;
 
 export const CardImageWrapper = styled.div`

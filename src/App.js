@@ -1,6 +1,7 @@
 import Card from "./components/Card";
 import Header from "./components/Header";
 import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 import { CardContainerStyled } from "./components/styled/CardContainerStyled";
 import Container from "./components/styled/Container";
 import { GlobalStyles } from "./components/styled/GlobalStyles";
@@ -47,6 +48,7 @@ function App() {
           ))}
         </CardContainerStyled>
       </Container>
+      <Footer />
     </ThemeProvider>
   );
 }

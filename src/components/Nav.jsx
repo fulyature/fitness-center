@@ -1,6 +1,7 @@
 import NavStyled from "./styled/NavStyled";
 import logo from "../assets/fitness-logo.webp";
 import Button from "./styled/Button";
+import HeaderStyled from "./styled/HeaderStyled";
 
 const Nav = () => {
   return (
@@ -8,6 +9,9 @@ const Nav = () => {
       <div>
         <img src={logo} width="500px" alt="" />
       </div>
+      <HeaderStyled>
+        <h1 style={{ fontSize: "2.5rem" }}>FITNESS CENTER</h1>
+      </HeaderStyled>
 
       <div>
         <Button>Join Us</Button>

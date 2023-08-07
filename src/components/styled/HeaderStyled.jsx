@@ -5,7 +5,7 @@ const HeaderStyled = styled.header`
   justify-content: center;
   align-items: center;
   gap: 1rem;
-
+  color: white;
   @media (max-width: ${({ theme }) => theme.breakpoints.md}) {
     flex-direction: column;
   }
