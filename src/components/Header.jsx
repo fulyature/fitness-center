@@ -6,6 +6,8 @@ const Header = () => {
   return (
     <HeaderStyled>
       <div>
+        <h1>Welcome</h1>
+
         <p>
           We’re proud to have created one of the finest gyms in Surrey. It’s
           founded on the principle that everyone is different, but we are all

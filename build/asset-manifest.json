@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.js": "/fitness-center/static/js/main.77bd19a4.js",
+    "main.js": "/fitness-center/static/js/main.4eba3c7a.js",
+    "static/media/gym2.jpg": "/fitness-center/static/media/gym2.d2db368608e8d26163b2.jpg",
+    "static/media/fitness-logo.webp": "/fitness-center/static/media/fitness-logo.f9f19e9486eea5b04490.webp",
     "index.html": "/fitness-center/index.html",
-    "main.77bd19a4.js.map": "/fitness-center/static/js/main.77bd19a4.js.map"
+    "main.4eba3c7a.js.map": "/fitness-center/static/js/main.4eba3c7a.js.map"
   },
   "entrypoints": [
-    "static/js/main.77bd19a4.js"
+    "static/js/main.4eba3c7a.js"
   ]
 }
